@@ -219,29 +219,29 @@
 		triggers = [ "Time-night" ]
 	[[songs.You_Came_Back_01_Crow_Country_Original_Soundtrack_OckeroidMusic]]
 		triggers = [ "Time-night" ]
-	[[songs.silence_5min]]
+	[[songs.silence_7min]]
 		triggers = [ "Biome-winter" ]
-	[[songs.silence_5min]]
+	[[songs.silence_7min]]
 		triggers = [ "Biome-beach" ]
-	[[songs.silence_5min]]
+	[[songs.silence_7min]]
 		triggers = [ "Time-night" ]
-	[[songs.silence_5min]]
+	[[songs.silence_7min]]
 		triggers = [ "Height-underground" ]
-	[[songs.silence_5min]]
+	[[songs.silence_7min]]
 		triggers = [ "Structure-village" ]
-	[[songs.silence_5min]]
+	[[songs.silence_7min]]
 		triggers = [ "Underwater" ]
-	[[songs.silence_5min]]
+	[[songs.silence_7min]]
 		triggers = [ "Biome-deep_ocean" ]
-	[[songs.silence_5min]]
+	[[songs.silence_7min]]
 		triggers = [ "Biome-ocean" ]
-	[[songs.silence_5min]]
+	[[songs.silence_7min]]
 		triggers = [ "Dimension-overworld" ]
-	[[songs.silence_5min]]
+	[[songs.silence_7min]]
 		triggers = [ "Raining" ]
-	[[songs.silence_5min]]
+	[[songs.silence_7min]]
 		triggers = [ "Biome-pumpkin" ]
-	[[songs.silence_5min]]
+	[[songs.silence_7min]]
 		triggers = [ "Raining" ]
 	[songs.universal]
 		pitch = 1.0
@@ -315,7 +315,6 @@
 		identifier = "default"
 		ticks_between_audio = 3600
 	[triggers.raining]
-		persistence = 50
 		priority = 400
 	[triggers.structure]
 		active_cooldown = 2400
@@ -333,11 +332,11 @@
 	[triggers.underwater]
 		priority = 1400
 	[triggers.universal]
-		active_cooldown = "1200"
+		active_cooldown = "3600"
 		fade_in = "10"
 		fade_out = "150"
-		persistence = "400"
+		persistence = "1800"
 		ticks_before_active = "0"
-		ticks_before_audio = "0"
-		ticks_between_audio = "1200"
+		ticks_before_audio = "400"
+		ticks_between_audio = "3600"
 
